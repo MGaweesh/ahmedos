@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Ahmed Osama - Physiotherapist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Dr. Ahmed Osama</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Expert</span>
+                        <span class="title-line highlight">Physiotherapy</span>
+                        <span class="title-line">Care</span>
+                    </h1>
+                    <p class="hero-description">
+                        SCFHS Licensed physiotherapist with 3+ years of clinical experience 
+                        specializing in orthopedic rehabilitation and post-operative care.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Book Consultation</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="Dr.jpg" alt="Dr. Ahmed Osama" id="floating-image" class="floating-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Dr. Ahmed</h2>
+                <p class="section-subtitle">Dedicated to your recovery and wellness</p>
+            </div>
+            <div class="about-content">
+                <div class="about-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Education</h3>
+                        <p>Bachelor of Physical Therapy with Honors<br>Deraya University (2017-2022)</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Licensed</h3>
+                        <p>Saudi Commission for Health Specialties (SCFHS)<br>Active License</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Experience</h3>
+                        <p>3+ Years of Clinical Experience<br>in Public & Private Healthcare</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Professional Approach</h3>
+                    <p>
+                        Known for the ability to simplify complex medical concepts and deliver effective, 
+                        individualized care. I specialize in orthopedic rehabilitation, post-operative care, 
+                        and comprehensive patient education.
+                    </p>
+                    <p>
+                        My approach combines evidence-based treatment methods with compassionate care, 
+                        ensuring each patient receives personalized attention throughout their recovery journey.
+                    </p>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-check"></i>
+                            <span>Orthopedic Manual Therapy</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check"></i>
+                            <span>Post-Operative Rehabilitation</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check"></i>
+                            <span>Cupping & Dry Needling</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check"></i>
+                            <span>Electromyography Assessment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">Comprehensive physiotherapy treatments</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h3>Orthopedic Rehabilitation</h3>
+                    <p>Specialized treatment for musculoskeletal injuries and conditions using manual therapy techniques.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Post-Operative Care</h3>
+                    <p>Comprehensive rehabilitation programs designed to optimize recovery after surgical procedures.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Neuro Rehabilitation</h3>
+                    <p>Evidence-based treatment approaches for neurological conditions and recovery.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <h3>ICU Physiotherapy</h3>
+                    <p>Specialized care for critically ill patients to prevent complications and promote recovery.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon" style="position: relative;">
+                        <i class="fas fa-syringe" style="position: relative; z-index: 1;"></i>
+                        <i class="fas fa-circle-notch" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(1.5); opacity: 0.7;"></i>
+                    </div>
+                    <h3>Cupping & Dry Needling</h3>
+                    <p>Traditional and modern therapeutic techniques for pain management and muscle recovery.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Assessment & Diagnosis</h3>
+                    <p>Comprehensive evaluation using advanced electromyography and biomechanical analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">Building expertise through diverse healthcare settings</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Senior Physiotherapist</h3>
+                        <h4>Hayat Physiopoint - Sheikh Zayed City</h4>
+                        <p>Leading physiotherapy treatments and mentoring junior staff in private rehabilitation center.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Physiotherapist</h3>
+                        <h4>Alfa Care - Mukattam City</h4>
+                        <p>Provided comprehensive physiotherapy services in outpatient and rehabilitation settings.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Intern Physiotherapist</h3>
+                        <h4>Qasr-Alainy Hospitals</h4>
+                        <p>Completed 1-year internship across ICU, Orthopedics, and Neurorehabilitation departments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-subtitle">Continuous professional development</p>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <i class="fas fa-award"></i>
+                    <h4>Orthopedic Manual Therapy</h4>
+                    <p>AIMS Certification</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-award"></i>
+                    <h4>Cupping & Dry Needling</h4>
+                    <p>Physical Therapy Association, Minia</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-award"></i>
+                    <h4>Basic Life Support (BLS)</h4>
+                    <p>Emergency Care Certification</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-award"></i>
+                    <h4>Biomechanical Analysis</h4>
+                    <p>El Razzy Concept - Level I</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-award"></i>
+                    <h4>Electromyography</h4>
+                    <p>Deraya Academy</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-award"></i>
+                    <h4>Post-Operative Rehabilitation</h4>
+                    <p>Deraya Academy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to start your recovery journey?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+20 100 343 2809</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>aoanwerx20@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Cairo, Egypt</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                      <input type="text" name="user_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" name="user_email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="tel" name="phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+
+                  </form>
+                  
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Dr. Ahmed Osama</h3>
+                    <p>Professional Physiotherapy Care</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Ahmed Osama. All rights reserved. | Developed and Designed by <a href="https://www.linkedin.com/in/muhammad-gaweesh-780396174/" target="_blank" rel="noopener noreferrer" style="color: #3b82f6; text-decoration: none;">Dr@Gaweesh</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
